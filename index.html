@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-End</title>
+</head>
+<body>
+
+  <script>
+    function login(){
+      alert("hola")
+    }
+  </script>
+<nav id="navegacion">
+<p><img src="./assets/Menu.png" alt=""></p>
+</nav>
+<section id="logo">
+<img src="./assets/Logo.png" alt="">
+</section>
+
+<section id="formulario">
+  <section id="botones">
+    <button onclick="login()" class="login" >Login</button>
+    <button class="registro">Registro</button>
+  </section>
+  <form action="#" class="flogin">
+    <section class="infol">
+      <label for="fname">EMAIL</label>
+      <input type="text" placeholder="ejemplo@gmail.com" class="input">
+      <br><br><br>
+      <label for="fname" class="contra">CONTRASEÑA</label>
+      <input type="password" class="input" placeholder="********">
+    <section id="sub">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <p>Suscribirse al Newletter</p>
+    </section>
+      <button class="ingresar">Ingresa</button>
+    </section>
+    <section class="olvido">
+      <a href="#">Olvide Contraseña</a>
+    </section>
+  </form>
+</section>
+</body>
+</html>
